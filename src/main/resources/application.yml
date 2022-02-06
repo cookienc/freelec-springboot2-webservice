@@ -16,9 +16,10 @@ spring:
         format_sql: true
 
   profiles:
-    include: oauth
+#    include: oauth
     group:
-      local-real: oauth,real-db
+      "local-real": "oauth,real-db"
+#    active: local-real
 
   session:
     store-type: jdbc
