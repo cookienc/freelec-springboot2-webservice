@@ -18,8 +18,10 @@ spring:
   profiles:
 #    include: oauth
     group:
-      "local-real": "oauth,real-db"
-#    active: local-real
+      "local": "oauth"
+      "local-real": "oauth,local-real"
+      "real": "real,real-db,oauth"
+    active: local
 
   session:
     store-type: jdbc
