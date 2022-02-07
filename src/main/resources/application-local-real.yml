@@ -2,4 +2,4 @@ spring:
   jpa:
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL5InnoDBDialect정
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
